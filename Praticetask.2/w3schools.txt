@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS box model</title>
+<style>
+.container{
+border:2px solid black;
+padding:5px;
+width:"50%";
+display:flex;
+border-radius:10px;
+}
+p{
+text-align:center;
+font-style:oblique;
+}
+.row{
+background-color:red;
+width:"50%";
+display:inline-block;
+}
+.row1{
+background-color:blue;
+width:"50%";
+}
+</style>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+    <p>W3 schools</p>
+    <p>learning Html and css</p>
+    </div>
+    <div class="row1">
+    <p>Greeks for greeks</p>
+    <p>best sites for learning courses</p>
+    </div>
+</div>
+</body>
+</html>

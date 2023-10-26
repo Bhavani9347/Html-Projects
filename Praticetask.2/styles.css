@@ -1,0 +1,8 @@
+body{
+    background-color: aliceblue;
+    text-align:center;
+    border-radius:200px;
+    font-style:oblique;
+    width:"100%";
+    background-image: url("background.jpg");
+}

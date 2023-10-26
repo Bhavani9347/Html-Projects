@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+    <section>
+        <!-- Creating a form -->
+        <h1>Creating a form</h1>
+        <form action="https://www.google.co.in/">
+            <fieldset>
+                <legend>Games</legend>
+                <label for="indoor"><input id="indoor" type="radio" name="indoor-outdoor" value="indoor">indoor</label>
+                <label for="outdoor"><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor">outdoor</label>
+            </fieldset>
+            <!-- Creating Radio Boxes -->
+            <fieldset>
+                <legend>Indoor Games</legend>
+                <label for="Badminton"><input id="Badminton" type="checkbox" name="Badminton" value="Badminton">Badminton</label>
+                <label for="TableTennis"><input id="TableTennis" type="checkbox" name="TableTennis" value="TableTennis">TableTennis</label>
+                <label for="Carroms"><input id="Carroms" type="checkbox" name="Carroms" value="Carroms">Carroms</label>
+            </fieldset>
+
+            <!-- Creating Dropdown list -->
+            <section>
+            <fieldset>
+            <label for="Famous Games">Choose your Favourite Game:</label>
+            <select id="Famous Games" name="Famous Games" required>
+            <option value="Cricket">Cricket</option>
+            <option value="volleyball">Volleyball</option>
+            <option value="Chess">Cricket</option>
+            <option value="hockey">Hockey</option>
+            <option value="Badminton">Badminton</option>
+            <option value="Tabletennis">Tabletennis</option>
+            </select>
+            </fieldset>
+            <input type="text" name="Games" placeholder="Choose any thing" required>
+            <button type="submit">submit</button>
+            </section>
+         </form>
+    </section> 
+</body>
+</html>
