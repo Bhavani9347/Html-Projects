@@ -1,0 +1,36 @@
+<!DOCTYPE html5>
+<head>
+<metadata charset="UTF_8">
+<title>States and Historical Places</title>
+</head>
+<body>
+<h1>Telangana state and historical places </h1>
+<main>
+<section>
+<ol>
+<li>Tank bund</li>
+<img src="tankbund.jpg">
+<li>Charminar</li>
+<img src="charminar.jpg">
+<li>Golkonda fort</li>
+<img src="golkonda.jpg">
+</ol>
+</section>
+
+<section>
+<h2>Andhra pradesh and historical places</h2>
+<ul>
+<li>Ruchikonda beach</li>
+<img src="rushikonda.jpg">
+<li>Kailasagiri</li>
+<img src="kailasagiri.jpg">
+</ul>
+</section>
+
+<section>
+<h3>Chennai and historical places</h3>
+<li>marina beach</li>
+<img src="marina.jpg">
+</section>
+</body>
+</html>

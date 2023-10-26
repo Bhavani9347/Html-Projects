@@ -1,0 +1,215 @@
+<!DOCTYPE html5>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Cat Photo App</title>
+
+<!--          Internal styling         -->
+<style>
+table,th,td{
+   border:1px solid blue;
+   border-collapse: collapse;
+   width:70%;
+}
+</style>
+</head>
+<body>
+<main>
+<h1>displaying cat images</h1>
+<section>
+<h2>cat images</h2>
+<!-- TODO: Add link to cat photo -->
+<p> see more <a target="_blank" href="https://freecatphotoapp.com">cat photos</a> in our gallery</p>
+<a href="https://freecatphotoapp.com"><img src="catt.jpg"></a>
+</section>
+<section>
+<h2>cat lists</h2>
+<h3>things cat love:</h3>
+<ul>
+<li>cat nip</li>
+<li>laser pointers</li>
+<li>lasanga</li>
+</ul>
+<figure>
+<img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasanga.jpg"alt="A slice of lasanga on a plate">
+<figcaption>Cats<em>love</em>lasanga</figcaption>
+</figure>
+
+<h3>Top 3 things cat hate:</h3>
+<ol>
+<li>flea treatment</li>
+<li>other cats</li>
+</ol>
+<figure>
+<img src="https://cdn.freecodecamo.org/curriculum/cat-photo-app/cats.jpg" alt="five cats looking around other">
+
+<!-- "Creating forms"-->
+<section>
+<h2>Cat form</h2>
+<form action="https://goggle.com">
+
+<!--"USING RADIO BOXES" -->
+ <fieldset>
+   <legend>Is your cat an Indoor or Outdoor cat?</legend>
+   <label><input id="indoor" type ="radio" name="indoor-outdoor" value="indoor" checked> indoor</label>
+   <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> outdoor</label
+ </fieldset>
+  
+ <fieldset>
+   <legend>Cats are very funny</legend>
+   <label><input id="funny" type ="radio" name="funnny-naughty" value="funnn" checked> funny</label>
+   <label><input id="naughty" type="radio" name="funny-naughty" value="naughty"> naughty</label
+ </fieldset>
+<!--                         -->
+
+<!--        "USING CHECKBOXES"    -->
+      <fieldset>
+        <legend>What's your cat's personality?</legend>
+        <input id="loving" type ="checkbox" name="personality" value="loving"> <label for ="loving"> loving</label>
+        <input id="lazy" type="checkbox" name="personality" value="lazy"> <label for="lazy">lazy</label>
+        <input id="active" type="checkbox" name="personality" value="active"> <label for="active">active</label>
+      </fieldset>
+<!--                    -->
+
+<!--  "To insert the Cat URL"       -->    
+      <input type="text" name="catphotourl" placeholder="cat photo URL"required>
+      <button type="submit">submit</button>
+      </form>
+</section>
+<!--                               -->
+
+
+<!-- Creating a Dropdown List -->
+<section>
+ <label for="cats">Choose a Cat:</label>
+   <select id="cats" name="cats">
+     <option value="persian">persian</option>
+     <option value="Siames">Siames</option>
+     <option value="Bengal">Bengal</option>
+     <option value="Americana">Americana</option>
+         </select>
+   </section>
+<!--                        --->
+
+<!--    "Creating Table section"        -->
+<section>
+<table>
+<thead>
+  <tr>
+  <th>Dog Name</th>
+  <th>Owner Name</th>
+  <th>city</th>
+  </tr>
+</thead>
+<tbody>
+<tr>
+<td>Snoopy</td>
+<td>Sowmya</td>
+<td>Hyderabad</td>
+</tr>
+<tr>
+<td>Rocky</td>
+<td>Bhavani</td>
+<td>Vizag</td>
+</tr>
+<tr>
+<td>Dimple</td>
+<td>Romika</td>
+<td>Chennai</td>
+</tr>
+<tr>
+<td>Chukky</td>
+<td>Abhinaya</td>
+<td>Khammam</td>
+</tr>
+</tbody>
+</table>
+ 
+<!--Creating a rowspan -->
+<table style="width:100%">
+<caption>Different types of cats</caption>
+<thead>
+<tr>
+<th>Category</th>
+<th>Species</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td rowspan="4">Domestic</td>
+<td>Persian</td>
+</tr>
+<tr>
+<td>Siames</td>
+</tr>
+<tr>
+<td>Bengal</td>
+</tr>
+<tr>
+<td>Americana</td>
+</tr>
+<tr>
+<td rowspan="5">Wild</td>
+<td>Kiemens</td>
+</tr>
+<tr>
+<td>Soccessie</td>
+</tr>
+<tr>
+<td>Roccessie</td>
+</tr>
+<tr>
+<td>Coccessie</td>
+</tr>
+<tr>
+<td>Zoccessie</td>
+</tr>
+</tbody>
+</table>
+
+<!-- Creating Column Span --->
+<table>
+<thead>
+<tr>
+<th colspan="2">Full Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>First Name</th>
+<th>Midlle Name</th>
+<th>Last Name</th>
+</tr>
+<tr>
+<td>bhavani</td>
+<td>akkala</td>
+<td>Reddy</td>
+</tr>
+<tr>
+<td>Abhinaya</td>
+<td>Rao</td>
+<td>Surabhi</td>
+</tr>
+</tbody>
+</table>
+
+<!-- Creating Footer it is the last element in the body-->
+<footer>
+<p>
+ No Copyright -<a
+href="https://www.google.com/">Goggle Here</a>
+</p>
+</footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
