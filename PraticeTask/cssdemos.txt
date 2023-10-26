@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Properties</title>
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+    <h1>Applying All the CSS Properties</h1>
+    <p>Welcome to CSS Properties</p>
+    <h1 class="hidden">Have A good Day</h1>
+    <p><abbr title="Hyper Text Markup Language">HTML</abbr></p>
+</body>
+    <div class="container">
+        <div class="Cell">
+            <div class="pink"></div>
+            <div class="red"></div>
+            <div class="green"></div>
+            <div class="orange"></div>
+        </div>
+        <div class="Cell">
+            <div class="grey"></div>
+            <div class="lavendar"></div>
+            <div class="yellow"></div>
+            <div class="purple"></div>
+        </div>
+    </div>
+    <ul>
+        <li><a href="https://www.w3schools.com/cssref/index.php#gsc.tab=0">Click Here</a></li>
+    </ul>
+</body>
+</html>
